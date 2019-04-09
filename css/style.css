@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div#pokedex{
+    width: 750px;
+    margin: 30px auto;
+}
+div#top{
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background: #C01C25;
+    margin: 0 auto;
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px; 
+}
+div#quarter-circle-left-1{
+    width: 70px;
+    height: 70px;
+    border-bottom-right-radius: 100%;
+    border-right: 5px solid #490000;
+    border-bottom: 5px solid #490000;
+    float: left;
+}
+div#quarter-circle-left-2{
+    width: 140px;
+    height: 140px;
+    border-bottom-right-radius: 100%;
+    border-right: 5px solid #490000;
+    border-bottom: 5px solid #490000;
+}
+div#quarter-circle-right-1{
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 100%;
+    border-left: 5px solid #490000;
+    border-bottom: 5px solid #490000;
+    float: right
+}
+div#quarter-circle-right-2{
+    width: 140px;
+    height: 140px;
+    border-bottom-left-radius: 100%;
+    border-left: 5px solid #490000;
+    border-bottom: 5px solid #490000;
+    float: right;
+}
+div#line-top{
+    width: 400px;
+    height: 10px;
+    background: #E8E7E9;
+    margin: 0 auto;
+}
+div#line-bottom{
+    width: 400px;
+    height: 10px;
+    background: #E8E7E9;
+    margin: 0 auto;
+}
+div#middle{
+	width: 350px;
+	height: 350px;
+    position: relative;
+    background: #7CA2B1;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+div#bottom{
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background: #C01C25;
+    margin: 0 auto;
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px; 
+}
+div#quarter-circle-left-3{
+    width: 70px;
+    height: 70px;
+    border-top-right-radius: 100%;
+    border-right: 5px solid #490000;
+    border-top: 5px solid #490000;
+    position: absolute;
+    bottom: 0;
+    float: left;
+}
+div#quarter-circle-left-4{
+    width: 140px;
+    height: 140px;
+    border-top-right-radius: 100%;
+    border-right: 5px solid #490000;
+    border-top: 5px solid #490000;
+    position: absolute;
+    bottom: 0;
+}
+div#quarter-circle-right-3{
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 100%;
+    border-left: 5px solid #490000;
+    border-top: 5px solid #490000;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    float: right
+}
+div#quarter-circle-right-4{
+    width: 140px;
+    height: 140px;
+    border-top-left-radius: 100%;
+    border-left: 5px solid #490000;
+    border-top: 5px solid #490000;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    float: right;
+}
