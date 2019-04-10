@@ -5,6 +5,7 @@
 div#pokedex{
     width: 750px;
     margin: 30px auto;
+    position: relative;
 }
 div#top{
     width: 400px;
@@ -48,17 +49,40 @@ div#quarter-circle-right-2{
     border-bottom: 5px solid #490000;
     float: right;
 }
+.circ-left{
+   position: absolute;
+   right: 55px;
+}
+.circ-right{
+    position: absolute;
+    left: 55px;
+}
 div#line-top{
     width: 400px;
     height: 10px;
     background: #E8E7E9;
     margin: 0 auto;
 }
+div#line-up{
+    width: 400px;
+    height: 5px;
+    background: #490000;
+    margin: 0 auto; 
+
+}
+div#line-down{
+    width: 400px;
+    height: 5px;
+    background: #490000;
+    margin: 0 auto;
+
+}
 div#line-bottom{
     width: 400px;
     height: 10px;
     background: #E8E7E9;
     margin: 0 auto;
+
 }
 div#middle{
 	width: 350px;
@@ -79,6 +103,33 @@ div#bottom{
     border-bottom-left-radius: 25px; 
     border-bottom-right-radius: 25px; 
 }
+div#center-circle-top{
+    width: 300px;
+    margin: 0 auto;  
+}
+.circ-top-left{
+    top: 106px;
+    left: 377px;
+    z-index: 1;
+}
+.circ-top-right{
+    top: 106px;
+    left: 233px;
+    z-index: 1;
+}
+div#center-circle-bottom{
+    width: 300px;
+    margin: 0 auto;
+}
+div#half-circle-bottom{
+    width: 200px;
+    height: 100px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-left: 5px solid #490000;
+    border-bottom: 5px solid #490000;
+    border-right: 5px solid #490000;
+}
 div#quarter-circle-left-3{
     width: 70px;
     height: 70px;
@@ -88,6 +139,7 @@ div#quarter-circle-left-3{
     position: absolute;
     bottom: 0;
     float: left;
+    left: 0;
 }
 div#quarter-circle-left-4{
     width: 140px;
@@ -119,4 +171,43 @@ div#quarter-circle-right-4{
     right: 0;
     position: absolute;
     float: right;
+}
+/* borda escura */
+
+.border-left{
+    border-left: 72px solid #272523 !important;
+    border-bottom: 72px solid#272523 !important;
+}
+.border-right{
+    border-right: 72px solid #272523 !important;
+    border-bottom: 72px solid #272523 !important;
+}
+.border-right-top{
+    border-right: 72px solid #272523 !important;
+    border-top: 72px solid #272523 !important;
+}
+.border-left-top{
+    border-left: 72px solid #272523 !important;
+    border-top: 72px solid #272523 !important;
+}
+/* circulo central */
+div#circle-top{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #daf4fa;
+    z-index: 1;
+    position: absolute;
+    right: 303px;
+    top: 178px;
+}
+div#circle-bottom{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #daf4fa;
+    z-index: 1;
+    position: absolute;
+    left: 130px;
+    top: -69px;
 }
