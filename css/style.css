@@ -4,10 +4,14 @@
     font-family: "Rajdhani", sans-serif;
     font-size: 35px;
     font-weight: bold;
+    color: #2969C5;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
     
+}
+body{
+    background: #2B2B2B;
 }
 div#pokedex{
     width: 750px;
@@ -69,7 +73,7 @@ div#quarter-circle-right-2{
 div#line-top{
     width: 400px;
     height: 10px;
-    background: #E8E7E9;
+    background: #ADADAD;
     margin: 0 auto;
 }
 div#line-up{
@@ -93,7 +97,7 @@ div#line-down{
 div#line-bottom{
     width: 400px;
     height: 10px;
-    background: #E8E7E9;
+    background: #ADADAD;
     margin: 0 auto;
 
 }
@@ -103,7 +107,6 @@ div#middle{
     position: relative;
     background: #C2ECF7;
     margin: 0 auto;
-    opacity: 0.6;
 }
 div#bottom{
     width: 400px;
@@ -208,7 +211,7 @@ div#circle-top{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background: #daf4fa;
+    background: #C2ECF7;
     z-index: 1;
     position: absolute;
     right: 303px;
@@ -218,7 +221,7 @@ div#circle-bottom{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background: #daf4fa;
+    background: #C2ECF7;
     z-index: 1;
     position: absolute;
     left: 130px;
